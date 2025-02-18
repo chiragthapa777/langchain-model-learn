@@ -6,6 +6,8 @@ langchain-core
 langchain-openai
 openai
 
+langchain-ollama
+
 # Anthropic Integration
 langchain-anthropic
 

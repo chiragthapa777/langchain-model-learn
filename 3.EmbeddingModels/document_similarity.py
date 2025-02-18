@@ -28,7 +28,6 @@ print("query_embedding ===> ",query_embedding)
 similarities = cosine_similarity([query_embedding], document_embeddings) # this will provide the similarity of the query with each document
 print("similarities ===> ",similarities)
 # we will have to sort the similarities to get the most similar document
-
 # for that we will have to persist the index of the document in the documents list
 indexed_similarities = enumerate(similarities[0])
 print("indexed_similarities ===> ",indexed_similarities)

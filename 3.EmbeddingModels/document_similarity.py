@@ -22,6 +22,8 @@ print("document_embeddings ===> ",document_embeddings)
 query_embedding = embeddings.embed_query(query)
 print("query_embedding ===> ",query_embedding)
 
+# PERFORM SEMANTIC SEARCH using cosine similarity
+
 
 similarities = cosine_similarity([query_embedding], document_embeddings) # this will provide the similarity of the query with each document
 print("similarities ===> ",similarities)
